@@ -12,10 +12,10 @@ const Password = document.querySelector("#password-input");
 const RegButton = document.querySelector("#submit-btn");
 
 RegButton.onclick = () => {
-  FirstNCheck = false;
-  LastNCheck = false;
-  EmailCheck = false;
-  PassCheck = false;
+  let FirstNCheck = false;
+  let LastNCheck = false;
+  let EmailCheck = false;
+  let PassCheck = false;
 
   if (FirstName.value === "") {
     FirstName.classList.add("is-invalid");
